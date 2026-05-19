@@ -10,7 +10,7 @@ on:
 jobs:
   release:
     name: Release
-    uses: kordamp/kordamp-gradle-plugin-workflow/.github/workflows/release.yml@main
+    uses: kordamp/kordamp-gradle-plugin-workflow/.github/workflows/release.yml@fc243bee70daa2b341d9365129e2c8f14192e17b # main
     with:
       jreleaser-version: latest
       version: ${{ github.event.inputs.version }}
